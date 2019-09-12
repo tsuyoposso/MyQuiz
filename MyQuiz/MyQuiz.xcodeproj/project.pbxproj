@@ -12,6 +12,9 @@
 		FE5634A52328BD4200C74561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5634A32328BD4200C74561 /* Main.storyboard */; };
 		FE5634A72328BD4600C74561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5634A62328BD4600C74561 /* Assets.xcassets */; };
 		FE5634AA2328BD4600C74561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5634A82328BD4600C74561 /* LaunchScreen.storyboard */; };
+		FE5634B22328CCB900C74561 /* question.csv in Resources */ = {isa = PBXBuildFile; fileRef = FE5634B12328CCB900C74561 /* question.csv */; };
+		FE5634B42328CD2900C74561 /* QuestionDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5634B32328CD2900C74561 /* QuestionDataManager.swift */; };
+		FE5634B62328D54F00C74561 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5634B52328D54F00C74561 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		FE5634A62328BD4600C74561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE5634A92328BD4600C74561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE5634AB2328BD4600C74561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5634B12328CCB900C74561 /* question.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = question.csv; sourceTree = "<group>"; };
+		FE5634B32328CD2900C74561 /* QuestionDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDataManager.swift; sourceTree = "<group>"; };
+		FE5634B52328D54F00C74561 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				FE56349F2328BD4200C74561 /* AppDelegate.swift */,
 				FE5634A12328BD4200C74561 /* ViewController.swift */,
 				FE5634A32328BD4200C74561 /* Main.storyboard */,
+				FE5634B32328CD2900C74561 /* QuestionDataManager.swift */,
+				FE5634B52328D54F00C74561 /* StartViewController.swift */,
 				FE5634A62328BD4600C74561 /* Assets.xcassets */,
 				FE5634A82328BD4600C74561 /* LaunchScreen.storyboard */,
 				FE5634AB2328BD4600C74561 /* Info.plist */,
+				FE5634B12328CCB900C74561 /* question.csv */,
 			);
 			path = MyQuiz;
 			sourceTree = "<group>";
@@ -124,6 +133,7 @@
 			files = (
 				FE5634AA2328BD4600C74561 /* LaunchScreen.storyboard in Resources */,
 				FE5634A72328BD4600C74561 /* Assets.xcassets in Resources */,
+				FE5634B22328CCB900C74561 /* question.csv in Resources */,
 				FE5634A52328BD4200C74561 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE5634A22328BD4200C74561 /* ViewController.swift in Sources */,
+				FE5634B62328D54F00C74561 /* StartViewController.swift in Sources */,
 				FE5634A02328BD4200C74561 /* AppDelegate.swift in Sources */,
+				FE5634B42328CD2900C74561 /* QuestionDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
